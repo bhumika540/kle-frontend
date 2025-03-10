@@ -31,7 +31,7 @@ const ProductList = () => {
   
     try {
       await axios.post(
-        "http://localhost:5000/cart/add",
+        "https://kle-backend.onrender.com//cart/add",
         {
           productId: product.id, // ✅ Ensure this is sent
           name: product.name,
